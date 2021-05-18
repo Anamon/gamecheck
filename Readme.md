@@ -10,7 +10,7 @@ What that means in practice is that I focus less on collecting information about
 
 Apart from the fact that I simply enjoy creating and maintaining databases, I also started the project because I felt that existing projects lack structured ways of capturing information about the narrative contents of the games they describe. I believe that this information can be extremely valuable in many different use cases, the most obvious ones being to look for games that share similar themes or scenarios, or finding games one has played years ago, based only on some sketchy memories of what they were about.
 
-Other principles of the project are *depth before breadth*, in that I may have collected information on a relatively small number of games so far, but I focussed on completeness and detail; and *incompleteness before speculation*, in that I only add information that I have either determined myself from owning and playing the games, or from credible original sources. A lot of speculative and plain wrong information about games spreads through the web, originating on some site, then being plagiarised by some other site, and before you know it, a completely made-up piece of information seems more credible because of the number of seemingly independent places it's repeated in. I wrote a [blog post](https://dirgames.wordpress.com/2016/11/09/editorial-aldos-adventures-in-misinformation/#more-104) about this a while ago, in the context of a previous iteration of this project.
+Other principles of the project are *depth before breadth*, in that I may have collected information on a relatively small number of games so far, but I focussed on completeness and detail; and *incompleteness before speculation*, in that I only add information that I have either determined myself from owning and playing the games, or from credible original sources. A lot of speculative and plain wrong information about games spreads through the web, originating on some site, then being plagiarised by some other site, and before you know it, a completely made-up piece of information seems more credible because of the number of seemingly independent places it's repeated in. I wrote a [blog post](https://dirgames.wordpress.com/2016/11/09/editorial-aldos-adventures-in-misinformation/) about this a while ago, in the context of a previous iteration of this project.
 
 ## This repository
 
@@ -22,7 +22,7 @@ The structure, and the decision on what I do and don't add to the catalog, may s
 
 ### The format
 
-Currently, I collect this data in the form of `.sfv` checksum files for IBM PC compatible titles, in an extended format created by [RapidCRC](https://rapidcrc.sourceforge.net/). This format includes not just the CRC32 checksums of the files, but also their size in Bytes and their timestamp.
+Currently, I collect this data in the form of `.sfv` checksum files for IBM PC compatible titles, in an extended format created by [RapidCRC](http://rapidcrc.sourceforge.net/). This format includes not just the CRC32 checksums of the files, but also their size in Bytes and their timestamp.
 
 Before you complain: this project is about file identification. CRC32 is sufficiently collision-free for the use cases it's intended for. Files are not declared a match unless their sizes, and usually names, are identical as well. The checksums are *only* intended to identify files from trustworthy sources.
 
