@@ -16,7 +16,7 @@ Other principles of the project are *depth before breadth*, in that I may have c
 
 In the end, I still need some way to identify the actual game files, or rather, I will need it for a few ideas I have on how the database could be used in the far-off future.
 
-For that reason, I started collecting metadata about the games I documents some years ago. I fill the gaps whenever I revisit games I already documented, so now this metadata collection is growing along with the main database.
+For that reason, I started collecting metadata about the games I document some years ago. I fill the gaps whenever I revisit games I already documented, so now this metadata collection is growing along with the main database.
 
 The structure, and the decision on what I do and don't add to the catalog, may seem a bit haphazard to the outside observer, and it may in fact well be. This isn't fleshed out, but I collect as much as I think I will need for the use cases I have in mind. Details can be worked out later.
 
